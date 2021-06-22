@@ -23,3 +23,4 @@ The src folder of your catkin workspace must contain the following packages:
 ## Disclaimer
 * This is only an example how to use the mask_rcnn_ros repository [https://github.com/tpatten/mask_rcnn_ros](https://github.com/tpatten/mask_rcnn_ros) within roboherlock
 * the model is not trained on our database yet
+* ![annotator resul](https://github.com/sunava/rs_maskrcnn/blob/main/maskrcnnannotator.png)

@@ -14,7 +14,7 @@ The src folder of your catkin workspace must contain the following packages:
 
 ## Run
 * Start a `roscore`
-* To launch docker: `docker run --rm -d --network maskrcnn-docker-network --name rs_maskrcnn/docker `
+* To launch docker: `sudo docker run -it -p 8888:8888 -p 6006:6006 -v ~/:/mask-rcnn-network rs_maskrcnn/docker `
 * In docker: `rosrun mask_rcnn_ros mask_rcnn_service.py`
 *  In your sourced workspace folder, type `rosrun robosherlock runAAE _ae:=mongo_maskrcnn_example _vis:=true`
     * The `_vis` tag is optional, if you like to see what the robot sees on your machine

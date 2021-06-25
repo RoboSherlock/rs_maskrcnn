@@ -4,7 +4,7 @@ A RoboSherlock package managing the connection an annotation for maskrcnn
 ## Dependencies
 The src folder of your catkin workspace must contain the following packages:
 * RoboSherlock: [https://github.com/RoboSherlock/robosherlock](https://github.com/RoboSherlock/robosherlock)
-* mask_rcnn_ros_msgs Msgs: [https://github.com/sunava/mask_rcnn_msgs.git](https://github.com/sunava/mask_rcnn_msgs.git)
+* mask_rcnn_ros_msgs Msgs: [https://github.com/RoboSherlock/mask_rcnn_msgs](https://github.com/RoboSherlock/mask_rcnn_msgs)
 
 ## Setup
 * Clone this repository to the src folder of your workspace
@@ -24,4 +24,4 @@ The src folder of your catkin workspace must contain the following packages:
 ## Disclaimer
 * This is only an example how to use the mask_rcnn_ros repository [https://github.com/tpatten/mask_rcnn_ros](https://github.com/tpatten/mask_rcnn_ros) within roboherlock
 * the model is not trained on our database yet
-* ![annotator resul](https://github.com/sunava/rs_maskrcnn/blob/main/maskrcnnannotator.png)
+* ![annotator resul](https://github.com/RoboSherlock/rs_maskrcnn/blob/main/maskrcnnannotator.png)

@@ -10,7 +10,7 @@ The src folder of your catkin workspace must contain the following packages:
 * Clone this repository to the src folder of your workspace
 * Open a terminal in your workspace folder and use `catkin build` (do **NOT** use `catkin_make`)
 * Source your workspace
-* For the provided dockerfile use: `sudo docker build -t name `.
+* For the provided dockerfile use: `sudo docker build -t rs_maskrcnn/docker .`
 
 ## Run
 * Start a `roscore`
